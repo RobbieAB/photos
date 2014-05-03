@@ -1,5 +1,9 @@
 #!/usr/bin/python3.3
 
+# Pillaged from http://stackoverflow.com/questions/7829499
+
+# The contents of this file are under the CC-BY-SA license covering StackOverflow answers.
+
 import hashlib
 
 def sha256sum(filename):
