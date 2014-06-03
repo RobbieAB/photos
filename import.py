@@ -12,4 +12,6 @@ imglist=os.listdir(srcdir)
 
 for img in imglist :
     imgpath=os.path.join(srcdir,img)
-    print(filehash.sha256sum(imgpath), imgpath)
+    imghash=filehash.sha256sum(imgpath)
+    print(imghash, imgpath)
+    print(imghash[0:2], imghash[2:])
