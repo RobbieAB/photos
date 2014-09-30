@@ -16,3 +16,4 @@ def sha256sum(filename):
             sha.update(buf)
     return sha.hexdigest()
 
+# Adding a test comment.
