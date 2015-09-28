@@ -1,4 +1,4 @@
-#!/usr/bin/python3.3
+#!/usr/bin/python3.4
 
 # Pillaged from http://stackoverflow.com/questions/7829499
 
@@ -16,4 +16,5 @@ def sha256sum(filename):
             sha.update(buf)
     return sha.hexdigest()
 
-# Adding a test comment.
+if __name__ == "__main__" :
+    print(sha256sum(__file__))
